@@ -1,4 +1,9 @@
+/*Question #3 — Largest Number
+Write a Java program that:
+1. Ask the user to enter 5 integers.
+2. Print the largest among them.
 import java.util.Scanner;
+*/
 public class LargestNumber{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
