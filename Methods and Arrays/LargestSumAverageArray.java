@@ -30,11 +30,7 @@ public class LargestSumAverageArray{
         return sum;
     }
     public static double arrayAverage(int[] numbers){
-        int sum = 0;
-        for(int i = 0; i < numbers.length; i++){
-            sum += numbers[i];
-        }
-        return sum / (double)numbers.length;
+        return arraySum(numbers)/ (double)numbers.length;
     }
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
