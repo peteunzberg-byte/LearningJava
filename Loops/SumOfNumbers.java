@@ -17,5 +17,6 @@ public class SumOfNumbers{
         }
         System.out.println("The sum of all integers from 1 to " 
         + number + " is " + sum);
+        sc.close();
     }
 }
